@@ -1,3 +1,81 @@
+# Ignore all log files
+*.log
+
+# Ignore IDE-specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+*.swp
+*.swo
+
+# Ignore build and output directories
+target/
+build/
+out/
+bin/
+
+# Ignore Gradle files
+.gradle/
+!gradle-wrapper.jar
+
+# Ignore Maven files
+.mvn/
+.m2/
+
+# Ignore dependency files (for Maven and Gradle)
+**/mvnw
+**/mvnw.cmd
+**/gradlew
+**/gradlew.bat
+
+# Ignore local configuration files
+application-local.properties
+application-dev.properties
+
+# Ignore Firebase service account key (if used)
+firebase-key.json
+
+# Ignore Supabase service account key (if used)
+supabase-key.json
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.development
+.env.production
+
+# Ignore Docker files
+docker-compose.yml
+Dockerfile
+
+# Ignore Mac OS-specific files
+.DS_Store
+
+# Ignore Windows-specific files
+Thumbs.db
+
+# Ignore compiled classes and packages
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore test output
+test-output/
+
+# Ignore Node.js files (if used for frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore frontend build files (if Angular is in the same repo)
+dist/
+
 target/
 pom.xml.tag
 pom.xml.releaseBackup
